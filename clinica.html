@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica da Família</title>
+    <!-- Estilos internos para personalizar o layout e design da página -->
+    <style>
+        /* Define estilo geral para o corpo da página */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Estilo do cabeçalho */
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        /* Exibe itens de navegação na mesma linha */
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        /* Estiliza links da navegação */
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Estilo da área principal */
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        /* Estilo para cada seção */
+        section {
+            background: white;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+        }
+
+        /* Estilo do rodapé */
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #007BFF;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Estilo do link de contato via WhatsApp */
+        .whatsapp-link {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        /* Estilo para o botão de WhatsApp */
+        .whatsapp-link:hover {
+            background-color: #1DAF5A;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho com o nome da clínica e navegação -->
+    <header>
+        <h1>Clínica da Família</h1>
+        <nav>
+            <ul>
+                <!-- Links de navegação para seções da página -->
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre Nós</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main>
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <ul>
+                <li>Consulta Médica</li>
+                <li>Vacinação</li>
+                <li>Exames Laboratoriais</li>
+                <li>Acompanhamento Nutricional</li>
+                <li>Psicologia</li>
+            </ul>
+        </section>
+
+        <!-- Seção sobre a clínica -->
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>A Clínica da Família tem como objetivo oferecer um atendimento humanizado e de qualidade para toda a família. Nossa equipe é composta por profissionais qualificados e dedicados ao bem-estar de nossos pacientes.</p>
+        </section>
+
+        <!-- Seção de contato com informações e link do WhatsApp -->
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Telefone: (21) 1234-5678</p>
+            <p>Email: contato@clinicadafamilia.com.br</p>
+            <p>Endereço: Rua Exemplo, 123 - Bairro - Cidade - Estado</p>
+            <!-- Link para contato direto via WhatsApp, abre em nova aba -->
+            <a href="https://wa.me/5511123456789" class="whatsapp-link" target="_blank">Chat com a gente no WhatsApp!</a>
+        </section>
+    </main>
+
+    <!-- Rodapé da página com copyright -->
+    <footer>
+        <p>&copy; 2023 Clínica da Família. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
